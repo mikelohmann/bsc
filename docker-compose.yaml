@@ -45,10 +45,10 @@ volumes:
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/tmp/bsc/config/mainnet'
+      device: '/home/bsc/bsc/config/mainnet'
   data:
     driver: local
     driver_opts:
       type: 'none'
       o: 'bind'
-      device: '/tmp/bsc/data/mainnet'
+      device: '/home/bsc/bsc/data/mainnet'
